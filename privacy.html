@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Crawl Data</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.15em; margin-top: 1.4em; }
+  .meta { color: #666; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="meta">Service: <strong>Crawl Data</strong> — personal/internal data tool. Last updated: October 30, 2026.</p>
+
+<h2>1. What We Collect</h2>
+<p>This tool is a local, single-user command-line application. It does not collect personal information through a website, app store, or any third-party service. When you authorize a TikTok account, the TikTok API returns only the profile and statistics data for that specific account (username, follower counts, video statistics) in order to complete the authorized request.</p>
+
+<h2>2. How Data Is Stored</h2>
+<p>All retrieved data is stored exclusively on the local machine of the user, in a SQLite database file (<code>data/tiktok.db</code>) and exported spreadsheet files (<code>exports/</code>). No data is sent to any external server, analytics service, or third party.</p>
+
+<h2>3. Tokens</h2>
+<p>OAuth access and refresh tokens returned by TikTok are stored locally in the same SQLite database, encrypted at rest only to the extent of your operating system's file permissions. These tokens are used solely to re-authenticate and refresh data for the accounts the user has explicitly authorized.</p>
+
+<h2>4. No Sharing, No Sale</h2>
+<p>We do not sell, rent, or share user data with anyone. There are no cookies, trackers, or analytics on the associated pages.</p>
+
+<h2>5. Your Choices</h2>
+<p>You may revoke access at any time through TikTok's account settings (Security &amp; Privacy → Connected apps), which will invalidate the tokens stored locally. Deleting the local database files removes all stored data.</p>
+
+<h2>6. Contact</h2>
+<p>Questions about this policy: contact the owner of the application (registered in the TikTok Developer Console).</p>
+
+<hr>
+<h2>Tóm tắt bằng tiếng Việt</h2>
+<p>Đây là ứng dụng command-line chạy cục bộ, không thu thập dữ liệu qua website hay dịch vụ bên thứ ba. Khi ủy quyền tài khoản TikTok, API chỉ trả về thông tin hồ sơ và thống kê của đúng tài khoản đó. Toàn bộ dữ liệu và token OAuth được lưu cục bộ trên máy người dùng (file SQLite và file xuất), không gửi đi bất kỳ máy chủ nào. Người dùng có thể thu hồi quyền truy cập bất kỳ lúc nào qua Cài đặt bảo mật TikTok; xóa file cơ sở dữ liệu là xoá toàn bộ dữ liệu đã lưu.</p>
+</body>
+</html>
